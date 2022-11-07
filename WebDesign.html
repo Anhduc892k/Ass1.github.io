@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .column img {
+        margin-top: 12px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* back button */
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+    }
+
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .previous {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+    .next {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    .round {
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div>
+            <a href="javascript:history.back()" class="previous">&laquo; Go back</a>
+        </div>
+        <h1>Web Design</h1>
+
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="https://i.pinimg.com/564x/6e/c6/8d/6ec68dec9b6f758f6d5434d4eb5336f4.jpg"
+                style="width:100%">
+            <img src="https://i.pinimg.com/564x/34/01/09/3401093f6452e725993c2a53cdf8dad7.jpg"
+                style="width:100%">
+            <img src="https://i.pinimg.com/564x/e3/1b/02/e31b02a6f8060928e60ad1448d85257b.jpg"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://i.pinimg.com/564x/e3/1b/02/e31b02a6f8060928e60ad1448d85257b.jpg"
+                style="width:100%">
+            <img src="https://i.pinimg.com/564x/46/26/e9/4626e9346f22fea805170a2b8bc08fd0.jpg"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/326518/pexels-photo-326518.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+        </div>
+        
+    </div>
+<div class="footer">
+      <p>Copyright by Mink Duc</p>
+    </div>
+</body>
+</html>

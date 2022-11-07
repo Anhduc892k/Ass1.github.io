@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .column img {
+        margin-top: 12px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* back button */
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+    }
+
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .previous {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+    .next {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    .round {
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div>
+            <a href="javascript:history.back()" class="previous">&laquo; Go back</a>
+        </div>
+        <h1>Typography</h1>
+
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="https://i.pinimg.com/564x/70/79/1a/70791a7c9da64d23a3339a628267a5b8.jpg"
+                style="width:100%">
+            <img src="https://cdna.artstation.com/p/assets/images/images/016/764/982/large/shade-kalina-stoicheva-slice-6.jpg?1553382679"
+                style="width:100%">
+            <img src="https://i.pinimg.com/736x/65/1f/c3/651fc353f22924ca9b5f63be7eb23b0e--hanoi-typography.jpg"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://assets.awwwards.com/awards/images/2020/04/heavy-typography-web-design.jpg"
+                style="width:100%">
+            <img src="https://i.pinimg.com/originals/02/bb/d4/02bbd4eecb284f55eb511954e7397b7d.png"
+                style="width:100%">
+            <img src="https://unica.vn/upload/landingpage/104824_typography-la-gi-cac-thuat-ngu-chuyen-mon-designer-can-biet_thumb.jpg"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/326518/pexels-photo-326518.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+        </div>
+    
+        <div class="column">
+            <img src="https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/716398/pexels-photo-716398.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+            <img src="https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&w=600"
+                style="width:100%">
+    
+    </div>
+    
+</body>
+
+</html>
